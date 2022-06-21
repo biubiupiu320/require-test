@@ -7,6 +7,7 @@ function resolve(dir) {
 
 module.exports = defineConfig({
   transpileDependencies: true,
+  // remove configureWebpack option, it work
   configureWebpack: {
     resolve: {
       alias: {
